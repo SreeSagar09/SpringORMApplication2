@@ -1,0 +1,34 @@
+Simple Program to show how to configure spring orm using java file and how to get records from db:
+Programs:
+* Product.java
+* ProductDAO.java
+* ProductDAOImpl.java
+* ProductDetails.java
+* Test.java
+Note:
+* In this application HibernateTemplate configuration is configured in java file.
+Output:
+----------- All Bean Names -----------
+org.springframework.context.annotation.internalConfigurationAnnotationProcessor
+org.springframework.context.annotation.internalAutowiredAnnotationProcessor
+org.springframework.context.annotation.internalCommonAnnotationProcessor
+org.springframework.context.annotation.internalPersistenceAnnotationProcessor
+org.springframework.context.event.internalEventListenerProcessor
+org.springframework.context.event.internalEventListenerFactory
+appConfig
+productDAOImpl
+productDetails
+org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration
+org.springframework.transaction.config.internalTransactionAdvisor
+transactionAttributeSource
+transactionInterceptor
+org.springframework.transaction.config.internalTransactionalEventListenerFactory
+dataSource
+localSessionFactoryBean
+hibernateTemplate
+hibernateTransactionManager
+org.springframework.aop.config.internalAutoProxyCreator
+--------- All Product List --------
+Product [productId=1, productCode=P001, productName=Book, quantity=12, price=15.0]
+Product [productId=2, productCode=P002, productName=Pen, quantity=20, price=10.0]
+Product [productId=3, productCode=P003, productName=Bag, quantity=24, price=120.5]

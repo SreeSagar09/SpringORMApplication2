@@ -1,0 +1,1 @@
+Simple Program to show how to configure spring orm using java file and how to get records from db:
