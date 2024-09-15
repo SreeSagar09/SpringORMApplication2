@@ -4,6 +4,7 @@ Programs:
 * ProductDAO.java
 * ProductDAOImpl.java
 * ProductDetails.java
+* AppConfig.java
 * Test.java
 Note:
 * In this application HibernateTemplate configuration is configured in java file.
